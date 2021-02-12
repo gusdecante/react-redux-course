@@ -1,10 +1,10 @@
-import React from "react"
+import { createContext } from "react"
 
 export const data = {
     number: 123,
     text: "Context API...Learning"
 }
 
-const DataContext = React.createContext(data)
+const DataContext = createContext(data)
 
 export default DataContext
